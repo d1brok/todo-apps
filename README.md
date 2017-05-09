@@ -51,8 +51,6 @@ getting the code
 
 To get the code you can just clone the repo.
 
-    git clone git@github.com:IBM-Bluemix/todo-apps.git
-
 The repository contains a directory for each implementation, and the
 `frontend` directory contains the web resources that are used by each
 implementation.
