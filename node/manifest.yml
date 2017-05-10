@@ -2,7 +2,7 @@ applications:
 - name:      todo-brokmann
   host:      todo-brokmann
   command:   node server --verbose -d cloudant
-  memory:    256M
+  memory:    128M
   services:
  # - todo-brokmann-db
 name: todo-brokmann-db
