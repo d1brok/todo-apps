@@ -4,8 +4,7 @@ applications:
   command:   node server --verbose -d cloudant
   memory:    128M
   services:
- # - todo-brokmann-db
-name: todo-brokmann-db
-    plan: Lite
+  - todo-brokmann-db
+
 
 
