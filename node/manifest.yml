@@ -1,6 +1,11 @@
 applications:
-- name:      bluemix-todo-node
-  host:      bluemix-todo-node
+- name:      todo-brokmann
+  host:      todo-brokmann
+  command:   node server --verbose -d cloudant
   memory:    256M
   services:
-  - todo-db 
+ # - todo-brokmann-db
+name: todo-brokmann-db
+    plan: Lite
+
+
