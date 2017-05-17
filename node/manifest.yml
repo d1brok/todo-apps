@@ -1,10 +1,10 @@
 applications:
-- name:      todo-brokmann
-  host:      todo-brokmann
+- name:      lg-todo
+  host:      lg-todo
   command:   node server --verbose -d cloudant
   memory:    128M
   services:
-  - todo-brokmann-db
+  - lg-cloudant
 
 
 
