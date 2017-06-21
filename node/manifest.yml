@@ -1,10 +1,10 @@
 applications:
-- name:      lg-todo
-  host:      lg-todo
+- name:      mb-todo
+  host:      mb-todo
   command:   node server --verbose -d cloudant
   memory:    128M
   services:
-  - lg-cloudant
+  - mb-cloudant
 
 
 
