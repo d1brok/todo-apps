@@ -4,7 +4,7 @@ applications:
   command:   node server --verbose -d cloudant
   memory:    128M
   services:
-  - cloudantNoSQLDB
+  - twittercloudant
 
 
 
