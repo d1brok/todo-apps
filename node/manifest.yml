@@ -1,10 +1,10 @@
 applications:
-- name:      mb-todo1
-  host:      mb-todo1
+- name:      sigtodo
+  host:      sigtodo
   command:   node server --verbose -d cloudant
-  memory:    128M
+  memory:    256M
   services:
-  - twittercloudant
+  - sigcloudant
 
 
 
